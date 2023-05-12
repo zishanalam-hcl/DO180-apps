@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
     - name: hello-world-container
-      image: busybox
+      image: nginx
       command: ['sh', '-c', 'echo "Hello, World!" && sleep 3600']
