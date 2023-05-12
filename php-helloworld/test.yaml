@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: hello-world-pod
-spec:
-  containers:
-    - name: hello-world-container
-      image: registry.redhat.io/rhel8/nginx-118
-      command: ['sh', '-c', 'echo "Hello, World!" && sleep 3600']
